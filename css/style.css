@@ -1,0 +1,290 @@
+* {
+	padding:0px;
+	margin:0px;
+	font-family: Segoe UI;
+	color: #FFFFFF;
+}
+
+hr{
+	background: rgba(255,255,255,.5);
+	width: 20%;
+	height: 5px;
+	border: none;
+	margin: 20px 0;
+}
+
+body::-webkit-scrollbar{
+	width:10px; 
+
+}
+
+body::-webkit-scrollbar-thumb{
+	background: #829AD1;
+	
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #FF3B3B
+}
+
+img{
+	display: block;
+}
+
+header{
+background-color: rgba(42,47,74,.95);
+box-shadow: 1px 1px 10px #212536;
+font-family:Segoe UI;
+font-size:30px; 
+text-align: center; 
+position: fixed;
+left: 0px;
+top: 0px;
+right: 0px;
+}
+
+body {
+background-color: #242943;
+}
+
+div {
+	color: #FFFFFF;
+	text-decoration-color: :#FFFFFF;
+	flex-wrap: wrap;
+}
+
+.container {
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+
+
+
+
+.C1 {
+	background-color: #D6AD86;
+	text-align: justify;
+	padding: 15px;
+	}	
+.C2 {
+	background-color: #71B7D1;
+	text-align: justify;
+	padding: 15px;
+	}	
+.C3 {
+	background-color: #8279B6;
+	text-align: justify;
+	padding: 15px;
+	}	
+.C4 {
+	background-color: #DF8D85;
+	text-align: justify;
+	padding: 15px;
+	}	
+.C5 {
+	background-color: #7BAF97;
+	text-align: justify;
+	padding: 15px;
+	}	
+.C6 {
+	background-color: #829AD2;
+	text-align: justify;
+	padding: 15px;
+}	
+
+.C7 {
+	font-size:20px; 
+	margin:80px;
+	background-color: rgba(133,138,255,.7);
+	text-align: justify;
+	padding: 15px;
+
+}	
+
+
+
+.PIEP{
+	background-color:#2A2F4A; 
+	text-align: center;
+	padding: 15px;
+	box-shadow: 1px 1px 15px #212536;
+}
+
+
+
+
+text {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:50px; 
+	text-decoration-color: #000000;
+	text-align: justify;
+}
+.CAJA2{
+	border: 5px solid #FFFFFF; 
+	text-decoration-color: rgb(36, 32, 32);
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left:15px; 
+	margin-right:15px; 
+	background-color: #6C009C;
+	color: #FFFFFF;
+	padding: 20px;
+}
+.line{
+	background-color: rgb(226, 45, 90);
+	width: 100%;
+	height: 5px;
+}
+.CAJA3{
+	border: 5px solid #FFFFFF; 
+	text-decoration-color: rgb(36, 32, 32);
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left:15px; 
+	margin-right:15px; 
+	background-color: #FFD735;
+	color: #FFFFFF;
+	padding: 20px;
+}
+.line2{
+	background-color: rgb(200, 169, 45);
+
+	width: 100%;
+	height: 5px;
+}
+.CAJA4{
+	border: 5px solid #FFFFFF; 
+	text-decoration-color: rgb(36, 32, 32);
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left:15px; 
+	margin-right:15px; 
+	background-color: #2091A0;
+	color: #FFFFFF;
+	padding: 20px;
+}
+.line3{
+	background-color: rgb(45, 226, 187);
+	width: 100%;
+	height: 5px;
+}
+
+.navigation ul a{	
+	text-decoration:none;
+	font:bold 15px Segoe UI;
+	padding:10px 20px 10px 20px;
+	border-bottom:5px #FFFFFF;
+	transition:border-bottom .2s;
+	-webkit-transition:border-bottom .2s;
+	-moz-transition:border-bottom .2s;
+	-o-transition:border-bottom .2s;
+}
+.navigation ul a:hover{
+border-bottom: 6px solid #FF3B3B;
+}
+
+.navigation ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+.navigation ul li ul {
+display: none;
+}
+
+.navigation ul li a:hover + ul, .navigation ul li ul:hover {
+		display: inline-grid;
+}
+
+.navigation ul li{
+	display:inline-grid;
+}
+.navigation ul li a{
+	display: block;
+	padding: block;
+}
+
+.menu-icon{
+	display: none;
+}
+
+.main{
+	padding-top: 120px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+h1 {
+	font-family: consolas;
+	line-height: 80px;
+	font-size:80px;
+}
+.subtitle{
+font-family: consolas;
+font-size:20px;
+}
+
+.logo-nav-container {
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width:767px) {
+
+text {
+	font-size:28px; 
+}
+
+.subtitle{
+font-family: consolas;
+font-size:15px;
+}
+
+.CAJA2{
+	border: 3px solid #FFFFFF; 
+	padding: 11px;
+}
+.CAJA3{
+	
+	border: 3px solid #FFFFFF; 
+	padding: 11px;
+}
+.CAJA4{
+	
+	border: 3px solid #FFFFFF; 
+	padding: 11px;
+}
+
+.menu-icon{
+	display: block;
+	cursor: pointer; 
+}
+
+.navigation ul{
+display: none;
+}
+
+.navigation ul.show{
+	display: block;
+}
+
+.navigation ul a:hover{
+border-bottom: 0px;
+}
+
+.navigation {
+	width: 100%;
+}
+
+.navigation ul li{
+display: block;
+}
+
+}
+
