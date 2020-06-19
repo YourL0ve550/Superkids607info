@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	left: 0;/*Margin de derecha*/
+	top: 0;/*NMargen arriba*/
+}
+#Nav{
+	width:100%; /*Ancho*/
+	height: 60px; /*Alto*/
+	background-color: orange;/*Color de fondo*/
+}
+#Nav h1{
+	color: #fff; /*Color de letra*/
+	font-family: arial;/*Tipo de letra*/
+	padding: 10px;/*MArgen por interior*/
+	font-size: 30px;/*Tamaño de letra al tanteo xd*/
+}
+
+.Titulo{
+	text-align: center;/*Alinear*/
+	font-family: arial;/*Tipo de letra*/
+	font-size: 50px;
+	margin-top: 50px; /*Margin hacia arriba*/
+}
+.Conte{
+	margin: auto; /*Centar*/
+	background-color: rgba(255, 128, 0,.5); /*Fondo*/
+	font-family: arial;
+	font-size: 25px;/*Tamaño de la letra*/
+	color: #000; /*Color blanco*/
+	max-width: 1000px;/*Maximo de ancho*/
+	padding: 20px; /*Margen interno*/
+	margin-top: 50px;
+}
